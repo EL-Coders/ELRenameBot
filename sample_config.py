@@ -28,3 +28,5 @@ class Config(object):
     # Database url
     DB_URI = os.environ.get("DATABASE_URL", "")
 
+    # Update channel for Force Subscribe, add bot as admin in the channel.
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")

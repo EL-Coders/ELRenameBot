@@ -1,0 +1,6 @@
+DOWNLOADS/
+*.session
+__pycache__/
+config.py
+database/__pycache__/
+plugins/__pycache__/
